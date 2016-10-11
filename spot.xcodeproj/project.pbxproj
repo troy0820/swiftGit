@@ -13,6 +13,7 @@
 		3E8332631DA405660058AAF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8332611DA405660058AAF2 /* LaunchScreen.storyboard */; };
 		3EEE4D271DAC0CE70099706D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE4D261DAC0CE70099706D /* TableViewController.swift */; };
 		3EEE4D2D1DAC41D10099706D /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE4D2C1DAC41D10099706D /* TrackViewController.swift */; };
+		3EEE4D2F1DAC6E1A0099706D /* startViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE4D2E1DAC6E1A0099706D /* startViewController.swift */; };
 		EFA7F9C3D2611CD12CFB4ED6 /* Pods_spot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D003D605C614A3F3C65A41C /* Pods_spot.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		3E8332641DA405660058AAF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EEE4D261DAC0CE70099706D /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		3EEE4D2C1DAC41D10099706D /* TrackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
+		3EEE4D2E1DAC6E1A0099706D /* startViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = startViewController.swift; sourceTree = "<group>"; };
 		7D003D605C614A3F3C65A41C /* Pods_spot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_spot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		998895D461860073C9FEDE70 /* Pods-spot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-spot/Pods-spot.debug.xcconfig"; sourceTree = "<group>"; };
 		D4DAF908392B17FF26F90B9D /* Pods-spot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spot.release.xcconfig"; path = "Pods/Target Support Files/Pods-spot/Pods-spot.release.xcconfig"; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				3E8332641DA405660058AAF2 /* Info.plist */,
 				3EEE4D261DAC0CE70099706D /* TableViewController.swift */,
 				3EEE4D2C1DAC41D10099706D /* TrackViewController.swift */,
+				3EEE4D2E1DAC6E1A0099706D /* startViewController.swift */,
 			);
 			path = spot;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E8332591DA405660058AAF2 /* AppDelegate.swift in Sources */,
+				3EEE4D2F1DAC6E1A0099706D /* startViewController.swift in Sources */,
 				3EEE4D2D1DAC41D10099706D /* TrackViewController.swift in Sources */,
 				3EEE4D271DAC0CE70099706D /* TableViewController.swift in Sources */,
 			);

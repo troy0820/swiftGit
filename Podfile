@@ -6,6 +6,7 @@ target 'spot' do
   use_frameworks!
   pod 'Alamofire', '~> 4.0'
   pod 'SwiftyJSON'
+  pod 'SDWebImage', '3.7.3'
   # Pods for spot
 
 end

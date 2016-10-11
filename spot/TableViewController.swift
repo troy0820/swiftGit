@@ -17,7 +17,7 @@ class TableViewController: UITableViewController {
     var images = [String]()
     
     typealias JSONStandard = [String: AnyObject]
-    var searchUrl = "https://api.github.com/users/troy0820/followers"
+    var searchUrl = "https://api.github.com/users/troy0820/followers?per_page=50"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -66,6 +66,7 @@ class TableViewController: UITableViewController {
                 return
         }
         trackVc?.follower = names[IndexPath.row]
+        trackVc?.picture = images[IndexPath.row]
         
     }
     

@@ -16,10 +16,10 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="50" id="v3R-2S-Lb5">
-                                <rect key="frame" x="0.0" y="120" width="375" height="50"/>
+                                <rect key="frame" x="0.0" y="119.5" width="375" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="v3R-2S-Lb5" id="hGm-eG-3Y9">
-                                    <frame key="frameInset" width="375" height="49"/>
+                                    <frame key="frameInset" width="375" height="49.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
@@ -99,11 +99,19 @@
                                 <frame key="frameInset" minX="40" minY="388" width="295" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Push this Button"/>
+                                <connections>
+                                    <action selector="buttonPress:" destination="NIj-el-Q78" eventType="touchUpInside" id="UcP-wV-QAA"/>
+                                </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nCY-sh-NQA">
+                                <frame key="frameInset" minX="67" minY="252" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="image" destination="nCY-sh-NQA" id="ik3-eq-Fne"/>
                         <outlet property="trackName" destination="tar-J9-qMA" id="NVu-h2-l2E"/>
                     </connections>
                 </viewController>

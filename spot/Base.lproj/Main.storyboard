@@ -101,6 +101,7 @@
                                 <state key="normal" title="Push this Button"/>
                                 <connections>
                                     <action selector="buttonPress:" destination="NIj-el-Q78" eventType="touchUpInside" id="UcP-wV-QAA"/>
+                                    <segue destination="SrA-Mm-Jbv" kind="show" id="nNm-Es-zDs"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nCY-sh-NQA">
@@ -117,7 +118,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="za9-nD-aDf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6096.8000000000002" y="637.33133433283365"/>
+            <point key="canvasLocation" x="5961" y="-259"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="AsY-pd-LJA">
@@ -156,4 +157,7 @@
             <point key="canvasLocation" x="3952.8000000000002" y="636.4317841079461"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="nNm-Es-zDs"/>
+    </inferredMetricsTieBreakers>
 </document>
